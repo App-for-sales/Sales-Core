@@ -12,7 +12,7 @@ apply plugin: 'eclipse'
 apply plugin: 'application'
 apply plugin: 'spring-boot'
 
-//mainClassName = 'com.bjs.application.hello.HelloWorld'
+
 
 
 

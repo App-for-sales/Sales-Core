@@ -1,5 +1,9 @@
 .gradle
 build/
+.settings
+.project
+.classpath
+gradle/
 
 # Compiled source #
 ###################
