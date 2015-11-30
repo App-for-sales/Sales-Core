@@ -11,6 +11,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 apply plugin: 'spring-boot'
+apply plugin: 'war'
 
 
 
@@ -25,8 +26,16 @@ targetCompatibility = 1.8
 jar {
     baseName = 'sales-app'
     version =  '0.1.0-SNAPSHOT'
+
+
 }
 
+war{
+ archiveName = 'ROOT.war'
+ destinationDir = file('webapps')
+    baseName = 'sales-app'
+    version =  '0.1.0-SNAPSHOT'
+}
 
 
 
